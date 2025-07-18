@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DonutCard, { type Donut } from "../../components/DonutCard";
 import { Link } from "react-router-dom";
-import { getPopularProducts } from "../../api/popularproducts";
+import { getPopularProducts } from "../../api/popularProducts";
 
 const PopularProduct: React.FC = () => {
   const [donuts, setDonuts] = useState<Donut[]>([]);
